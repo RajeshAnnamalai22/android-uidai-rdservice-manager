@@ -39,6 +39,7 @@ public class RDServiceManager {
 			put("com.scl.rdservice", "Morpho");
 			put("com.mantra.rdservice", "Mantra");
 			put("com.acpl.registersdk", "Startek FM220");
+			put("co.aratek.asix_gms.rdservice", "Aratek A600");
 			put("com.rd.gemalto.com.rdserviceapp", "Gemalto 3M Cogent CSD200");
 
 			put("com.tatvik.bio.tmf20", "Tatvik TMF20");
