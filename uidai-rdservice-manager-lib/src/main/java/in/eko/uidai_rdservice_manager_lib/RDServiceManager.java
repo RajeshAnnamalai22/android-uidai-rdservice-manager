@@ -36,17 +36,21 @@ public class RDServiceManager {
 	private static final Map<String, String> mapRDDriverWhitelist = new HashMap<String, String>() {
 		{
 			put("com.secugen.rdservice", "Secugen");
-			put("com.scl.rdservice", "Morpho");
-			put("com.mantra.rdservice", "Mantra");
-			put("com.acpl.registersdk", "Startek FM220");
-			put("com.rd.gemalto.com.rdserviceapp", "Gemalto 3M Cogent CSD200");
+      			put("com.scl.rdservice", "Morpho");
+      			put("com.mantra.rdservice", "Mantra");
+      			put("com.acpl.registersdk", "Startek FM220");
+      			put("com.rd.gemalto.com.rdserviceapp", "Gemalto 3M Cogent CSD200");
+      			put("com.integra.registered.device", "Integra");
+      			put("com.aratek.asix_gms.rdservice", "Aratek");
+      			put("rdservice.metsl.metslrdservice", "Maestros");
 
-			put("com.tatvik.bio.tmf20", "Tatvik TMF20");
-			put("com.evolute.rdservice", "Evolute");
-			put("com.precision.pb510.rdservice", "PB510");
-			put("com.mantra.mis100v2.rdservice", "MIS100V2 by Mantra");
-			put("com.nextbiometrics.rdservice", "NEXT Biometrics NB-3023");
-			put("com.iritech.rdservice", "IriTech IriShield");
+      			put("com.tatvik.bio.tmf20", "Tatvik TMF20");
+      			put("com.evolute.rdservice", "Evolute");
+      			put("com.precision.pb510.rdservice", "PB510");
+      			put("com.mantra.mis100v2.rdservice", "MIS100V2 by Mantra");
+      			put("com.nextbiometrics.rdservice", "NEXT Biometrics NB-3023");
+      			put("com.iritech.rdservice", "IriTech IriShield");
+      			put("com.evolute.iris.rdservice", "Evolute IRIS");
 		}
 	};
 
